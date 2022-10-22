@@ -1,0 +1,96 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+    direction: rtl;
+}
+.container
+{ 
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{  
+    margin: 0%;
+    padding: 0%;
+}
+header
+{
+    background: #353637;
+    color: #ffffff;  
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #1689ac 10px solid;
+} 
+header #brand
+{
+    float: right;
+}
+header #brand h1
+{
+    margin: 0;  
+    color: #32a0c2;
+}
+header nav  
+{
+    float: left;
+    margin-top: 10px;
+}
+#newsletter
+{
+    padding: 30px;
+    color: #ffffff;
+    background:#353637; 
+}
+#boxes 
+{
+    margin-top: px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding:10px ;
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #32a0c2;
+    text-align: center;
+    font-weight: bol;
+    font-size: 20px;
+}
+@media(max-width: 768px)
+{
+    header #brand,
+    header nav,
+    header nav li
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+    float: none;
+    text-align: center;
+    width: 100%;
+    }
+    header
+  {
+  padding-bottom: 20px;
+  }
+#newsletttr .button
+  {
+    display: block;
+    width: 100%;
+  }
+
+#newsletttr form input[type="emil"]
+  {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
